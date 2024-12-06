@@ -1,5 +1,13 @@
 import java.text.SimpleDateFormat
 
+plugins {
+    id "net.nemerosa.versioning" version "3.1.0"
+}
+
+repositories {
+    jcenter()
+}
+
 configurations {
     bundleLib
 }
